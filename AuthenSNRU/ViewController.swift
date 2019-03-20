@@ -23,8 +23,8 @@ class ViewController: UIViewController {
     
     @IBAction func registerbutton(_ sender: UIButton) {
         
-        print("You Click")
-        
+        print("You Click Register")
+        performSegue(withIdentifier: "GoRegister", sender: self)
     }
     
 } //MainClass
